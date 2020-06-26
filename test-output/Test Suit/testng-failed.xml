@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test Suit]">
+  <test thread-count="5" verbose="10" name="App Test(failed)">
+    <classes>
+      <class name="com.App.qa.testcases.TC01_AddProduct">
+        <methods>
+          <include name="addProduct" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="navigateToProductLink"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.App.qa.testcases.TC01_AddProduct -->
+      <class name="com.App.qa.testcases.TC03_UpdateProduct">
+        <methods>
+          <include name="TC03UpdateProduct" invocation-numbers="0 1"/>
+          <include name="close"/>
+          <include name="logout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.App.qa.testcases.TC03_UpdateProduct -->
+      <class name="com.App.qa.testcases.TC04_DeleteProduct">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="logout"/>
+          <include name="TC04DeleteProduct" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.App.qa.testcases.TC04_DeleteProduct -->
+    </classes>
+  </test> <!-- App Test(failed) -->
+</suite> <!-- Failed suite [Test Suit] -->

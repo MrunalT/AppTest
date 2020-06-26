@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Online Shopping App Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Online Shopping App Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 16 11:13:37 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>85 seconds (85996 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.OnlineApp.qa.testcases.RegisterUser.registerUserTest()'><b>registerUserTest</b><br>Test class: com.OnlineApp.qa.testcases.RegisterUser<br>Test method: Register user to application<br>Parameters: Mrunal, Tare, 37th street, Miami, Florida, 41057, 9009878990<br/>
+<a href="#Output-652176954" onClick='toggleBox("Output-652176954", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-652176954" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-652176954">
+<br> Clicked on <b>Sign In Button</b></br><br/>
+<br><b>Sign In Page is displayed.</b></br><br/>
+<br><b>Mrunal_160520111356@gmail.com</b> is Entered in <b>Email Address</b></br><br/>
+<br> Clicked on <b>Create Account Button</b></br><br/>
+<br>Create Account Info Page is displayed.</br><br/>
+<br><b>Mrunal</b> is Entered in <b>First Name</b></br><br/>
+<br><b>Tare</b> is Entered in <b>Last Name</b></br><br/>
+<br>Following prepopulated email address matched: Mrunal_160520111356@gmail.com</br><br/>
+<br><b>null********</b> is Entered in <b>Password</b></br><br/>
+<br><b>37th street</b> is Entered in <b>Address</b></br><br/>
+<br><b>Miami</b> is Entered in <b>City</b></br><br/>
+<br><b>Florida</b> is selected in <b>State</b></br><br/>
+<br><b>41057</b> is Entered in <b>Zip</b></br><br/>
+<br><b>9009878990</b> is Entered in <b>Phone</b></br><br/>
+<br> Clicked on <b>Register Button</b></br><br/>
+<br>Account is created succesfully.</br><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.OnlineApp.qa.testcases.RegisterUser@3aeaafa6</td></tr>
+<tr>
+<td title='com.OnlineApp.qa.testcases.VerifyOrderHistory.verifyOrderAmtOnHistory()'><b>verifyOrderAmtOnHistory</b><br>Test class: com.OnlineApp.qa.testcases.VerifyOrderHistory<br>Test method: Check order amt on history page after ordering product<br>Parameters: [Ljava.lang.String;@7b205dbd<br/>
+<a href="#Output-360936478" onClick='toggleBox("Output-360936478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-360936478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-360936478">
+<br><b>Application invoked successfully.</b></br><br/>
+<br><b>Home Page is displayed.</b></br><br/>
+<br> Clicked on <b>Sign In Button</b></br><br/>
+<br><b>Sign In Page is displayed.</b></br><br/>
+<br><b>Mrunal890@gmail.com</b> is Entered in <b>Registered Email Address</b></br><br/>
+<br><b>null********</b> is Entered in <b>Registered Password</b></br><br/>
+<br> Clicked on <b>Login Button</b></br><br/>
+<br>Account is Logged in succesfully.</br><br/>
+<br> Clicked on <b>Woment Section</b></br><br/>
+<br> Clicked on <b>Faded Short Sleeve T-shirts</b></br><br/>
+Clicked on Add to cart button.<br/>
+<br> Clicked on <b>Continue Shopping</b></br><br/>
+<br> Clicked on <b>Woment Section</b></br><br/>
+<br> Clicked on <b>Blouse</b></br><br/>
+Clicked on Add to cart button.<br/>
+<br> Clicked on <b>Continue Shopping</b></br><br/>
+<br> Clicked on <b>View Cart Button</b></br><br/>
+<br><b>Shopping cart summary is opened<b></br><br/>
+<b><br>Shopping summary page is opened.</b></br><br/>
+<b></br>Total Amount on shopping summary</br> $45.51</b><br/>
+<br> Clicked on <b>Proceed to checkount button</b></br><br/>
+<b><br>Addresses page is opened.</b></br><br/>
+<br> Clicked on <b>Proceed to checkount button</b></br><br/>
+<b><br>Shipping page is opened.</b></br><br/>
+<br> Clicked on <b>Terms of Service</b></br><br/>
+<br> Clicked on <b>Proceed to checkount button</b></br><br/>
+<b><br>Payment page is opened.</b></br><br/>
+<b></br>Total Amount on Payment Page</br> $45.51</b><br/>
+<br> Clicked on <b>Payment by Bank wire button</b></br><br/>
+<b><br>Order confirm page is opened.</b></br><br/>
+<br> Clicked on <b>Order confirm button</b></br><br/>
+<b><br>Order is confirmed</b></br><br/>
+Following order information is displayed: <b>Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $45.51
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference YAIFWZWYU in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .</b><br/>
+<br> Clicked on <b>My Profile Button</b></br><br/>
+<br><b>My Account Page is displayed.</b></br><br/>
+<br> Clicked on <b>Order History Button</b></br><br/>
+<br>Order History Page is opened.</br><br/>
+<br>The amount of order id <b>YAIFWZWYU</b> under ORDER HISTORY is verified.</br><br> verified value: <b>$45.51</b><br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.OnlineApp.qa.testcases.VerifyOrderHistory@76a3e297</td></tr>
+</table><p>
+</body>
+</html>
